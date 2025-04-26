@@ -1,60 +1,61 @@
-# Data Science Bootcamp Outline
+# Data Science Bootcamp Curriculum
 
-This repository contains the outline and assignments for the Data Science Bootcamp. Each sprint focuses on a specific set of skills and tools essential for data science.
+This repository outlines the comprehensive curriculum for our Data Science Bootcamp, designed to equip learners with foundational and advanced skills in data analysis, statistical modeling, and machine learning. Each sprint focuses on a specific domain, blending theoretical knowledge with practical application through engaging projects.
 
-## Sprint 01 - Google Sheets
+## Sprint 01: Data Manipulation with Google Sheets
 
-* **Dynamic Query:** Learn how to use dynamic queries in Google Sheets to efficiently filter and analyze data.
-* **เปลี่ยนวันที่ พ.ศ. <-> ค.ศ.:** Practice converting dates between the Buddhist Era (พ.ศ.) and the Common Era (ค.ศ.) in Google Sheets.
-* **Regular Expression ดึงค่าจากบัตรประชาชน ID Card Parser:** Utilize regular expressions to extract specific information from Thai ID card numbers within Google Sheets.
+* **Dynamic Querying:** Mastering the implementation of dynamic queries within Google Sheets for sophisticated data filtering and analysis.
+* **Date Conversion Utility:** Developing proficiency in seamless conversion between Buddhist Era (B.E.) and Common Era (C.E.) date formats within the Google Sheets environment.
+* **Thai National ID Card Parsing via Regular Expressions:** Applying regular expression techniques to extract pertinent information from Thai National Identification Card numbers using Google Sheets functionalities.
 
-## Sprint 02 - SQL Databases
+## Sprint 02: Relational Database Management with SQL
 
-* **สร้าง REPL บน https://replit.com/:** Set up a SQL REPL (Read-Eval-Print Loop) environment on Replit for practicing SQL commands.
-* **ออกแบบ restaurant databases มีอย่างน้อย 5 tables:** Design a relational database schema for a restaurant, including at least five tables with appropriate relationships and attributes.
-* **เขียน SELECT WITH หรือใช้ subqueries:** Practice writing complex SQL queries using `WITH` clauses or subqueries to retrieve specific information from the restaurant database.
+* **REPL Environment Setup:** Establishing a functional SQL Read-Eval-Print Loop (REPL) environment on Replit for hands-on SQL practice.
+* **Restaurant Database Design:** Architecting a robust relational database schema for a restaurant, comprising a minimum of five interconnected tables with well-defined attributes and relationships.
+* **Advanced Data Retrieval:** Constructing complex SQL `SELECT` statements utilizing `WITH` clauses and subqueries to extract specific insights from the designed restaurant database.
 
-## Sprint 03 - Programming
+## Sprint 03: Foundational Programming Principles
 
-* **สร้าง REPL บน https://replit.com/:** Set up a general-purpose programming REPL environment on Replit.
-* **Chatbot สั่ง Pizza มีอย่างน้อย 8-10 dialogues:** Develop a simple chatbot that simulates ordering pizza, with at least 8-10 different conversational turns.
-* **เป่ายิ้งฉุบ user สามารถเล่นกี่รอบก็ได้ ตอนจบเกมให้สรุปผล win, tie, loss ด้วย:** Create a Rock-Paper-Scissors game where the user can play multiple rounds, and the final results (wins, ties, losses) are summarized at the end.
+* **REPL Environment Setup:** Configuring a versatile programming REPL environment on Replit for coding exercises.
+* **Interactive Pizza Ordering Chatbot:** Developing a conversational chatbot simulating a pizza ordering process, incorporating a minimum of 8-10 distinct dialogue turns.
+* **Multi-Round Rock-Paper-Scissors Game:** Creating an interactive Rock-Paper-Scissors game allowing users to play an arbitrary number of rounds, culminating in a comprehensive summary of wins, ties, and losses.
 
-## Sprint 04 - Data Transformation
+## Sprint 04: Data Transformation and Engineering
 
-* **วิเคราะห์ข้อมูล nycflights13 ด้วย dplyr:** Analyze the `nycflights13` dataset using the `dplyr` package in R for data manipulation and transformation.
-* **ลองสร้าง PostgreSQL server ของตัวเองบน https://www.elephantsql.com/ แล้ว write tables ขึ้นไปบน server:** Set up a free PostgreSQL server on ElephantSQL and practice writing tables and data to it.
+* **`dplyr` Based Analysis of `nycflights13` Dataset:** Conducting in-depth data analysis and transformation of the `nycflights13` dataset using the `dplyr` package in R.
+* **Cloud-Based PostgreSQL Server Implementation:** Establishing a personal PostgreSQL server on ElephantSQL and performing data definition and manipulation operations, including table creation and data insertion.
 
-## Sprint 05 - Data Visualization
+## Sprint 05: Data Visualization Techniques
 
-* **ลองสร้าง 5-6 charts ด้วย ggplot และส่งการบ้านด้วย R markdown:** Create 5-6 different types of charts using the `ggplot2` package in R to visualize data. Submit the assignment as an R Markdown document.
+* **ggplot2 Chart Development:** Generating a diverse set of 5-6 insightful charts utilizing the `ggplot2` package in R to effectively communicate data patterns and trends.
+* **Reproducible Reporting with R Markdown:** Documenting and submitting the visualization assignments as reproducible R Markdown reports.
 
-## Sprint 06 - Essential Statistics
+## Sprint 06: Essential Statistical Concepts
 
-* **ทำการบ้าน titanic ใน on demand video ด้วย R:** Complete the Titanic dataset analysis assignment based on the provided on-demand video using R.
-* **ลองสร้างโมเดล linear regression ใน Excel/ Google Sheets:** Build a simple linear regression model using either Microsoft Excel or Google Sheets.
-* **วิเคราะห์ข้อมูลด้วย AB test ง่ายๆใน Excel/ Google Sheets:** Perform a basic A/B test analysis using the functionalities of Excel or Google Sheets.
+* **Titanic Dataset Analysis (R-Based):** Completing a comprehensive analysis of the Titanic dataset in R, following the guidelines of the provided on-demand video.
+* **Linear Regression Modeling (Spreadsheet Software):** Constructing and interpreting simple linear regression models using either Microsoft Excel or Google Sheets.
+* **A/B Test Analysis (Spreadsheet Software):** Performing and interpreting basic A/B test analyses to evaluate the impact of different interventions using Excel or Google Sheets.
 
-## Sprint 07 - Essential Machine Learning
+## Sprint 07: Core Machine Learning Principles
 
-* **สร้างโมเดลด้วย caret อย่างน้อย 2-3 โมเดล ใช้เทคนิคด้านล่าง:** Build at least 2-3 different machine learning models using the `caret` package in R, applying the following techniques:
+* **Model Building with `caret` Package:** Developing and evaluating at least 2-3 distinct machine learning models using the `caret` package in R, employing the following fundamental techniques:
     * Regression
     * Classification
-    * K-Fold cross validation
-* **นักเรียนสามารถหา free dataset ได้จาก data.world หรือ kaggle นะครับ จะลองเสิร์ชจาก google datasets ก็ได้นะครับ ⭐:** Students can find free datasets for this assignment on platforms like data.world, Kaggle, or by searching Google Datasets.
+    * K-Fold Cross-Validation
+* **Open Dataset Exploration:** Learners are encouraged to source freely available datasets from platforms such as data.world, Kaggle, or Google Datasets (⭐).
 
-## Sprint 08 - Python Programming
+## Sprint 08: Python Programming Proficiency
 
-* **เขียนเกมส์เป่ายิ้งฉุบด้วย python:** Develop the Rock-Paper-Scissors game again, this time using the Python programming language.
-* **เขียน class ATM อย่างน้อย 5 methods:** Create a Python class named `ATM` with at least five different methods representing common ATM functionalities (e.g., deposit, withdraw, check balance).
+* **Rock-Paper-Scissors Game Development (Python):** Implementing the classic Rock-Paper-Scissors game using the Python programming language, emphasizing clean and modular code.
+* **ATM Class Implementation (Python):** Designing and implementing a Python class named `ATM` with a minimum of five essential methods representing typical ATM functionalities.
 
-## Sprint 09 - Essential Python for Data Analyst
+## Sprint 09: Python for Data Analysis Essentials
 
-* **ทำการบ้านในคอร์ส pandas foundation:** Complete the assignments and exercises from a pandas foundation course.
-* **ลองเขียน requests ดึงข้อมูลจาก public API:** Practice using the `requests` library in Python to fetch data from a public API.
-* **ลองสร้าง simple ML model ด้วย sklearn:** Build a simple machine learning model using the `scikit-learn` (sklearn) library in Python.
+* **Pandas Foundation Coursework:** Completing assigned exercises and projects from a foundational pandas course to solidify data manipulation skills in Python.
+* **Public API Interaction with `requests`:** Gaining practical experience in using the `requests` library in Python to retrieve data from publicly accessible APIs.
+* **Introduction to `scikit-learn` for Machine Learning:** Building and evaluating a simple machine learning model using the `scikit-learn` (sklearn) library in Python.
 
-## Sprint 10 - Dashboard
+## Sprint 10: Data Dashboarding and Storytelling
 
-* **สร้าง dashboard ด้วย Looker Studio (Former Data Studio):** Create an interactive data dashboard using Google Looker Studio (formerly Data Studio).
-* **สร้าง dashboard ด้วย Tableau Public:** Design and publish a data dashboard using Tableau Public.
+* **Interactive Dashboard Creation with Looker Studio:** Designing and developing dynamic data dashboards using Google Looker Studio (formerly Data Studio) to visualize key insights.
+* **Public Dashboard Development with Tableau Public:** Constructing and publishing interactive data dashboards using Tableau Public to share data-driven narratives effectively.
